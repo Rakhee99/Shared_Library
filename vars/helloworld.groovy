@@ -1,3 +1,3 @@
-def call(){
-	echo 'hello world'
+def call(Map config = [:]){
+	echo 'Hello ${config.firstname} ${config.lastname} !!'
 }
