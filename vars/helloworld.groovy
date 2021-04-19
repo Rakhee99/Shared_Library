@@ -1,4 +1,4 @@
-def call(Map config = [:])
+def call()
 {
-	echo ' $"config.firstname" $"config.lastname" !!'
+	echo 'Hello World !!'
 }
