@@ -1,4 +1,4 @@
-def call(String fname, String lname)
+def call(Map config = [:])
 {
-	echo "${fname} ${lname} !!"
+	echo "Hello ${config.fname} ${config.lname} !!"
 }
