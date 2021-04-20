@@ -1,4 +1,4 @@
-def call()
+def call(String fname, String lname)
 {
-	echo 'Hello World !!'
+	echo "${fname} ${lname} !!"
 }
