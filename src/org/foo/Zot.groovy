@@ -2,7 +2,7 @@
 package org.foo
 
 def checkOutFrom(repo) {
-  git url: "git@github.com:jenkinsci/${repo}"
+  git url: "https://github.com/Rakhee99/${repo}.git/"
 }
 
 return this
